@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Times New Roman;
+}
+
+body{
+    background-color: #EBF5FB;
+}
+
+h1 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    color:#2C3E50;
+}
+
+p {
+    color: #550b0b;
+    margin-top: 25px;
+}
+
+
+div.container {
+    position: relative;
+    top: 60px;
+}
+
+.row {
+    width: 100%;
+}
+
+.menu1{
+    background-color: #F5B7B1;
+    width: 40%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: black solid 1px;
+    text-align: center;
+    border-top: 0;
+    border-right: 0;
+}
+
+.menu2{
+    background-color: #7B241C;
+    color: white;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: black solid 1px;
+    text-align: center;
+    border-top: 0;
+    border-right: 0;
+
+}
+
+.menu3{
+    background-color: #F5CBA7;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: black 1px solid ;
+    text-align: center;
+    border-top: 0;
+    border-right: 0;
+
+}
+
+.detail {
+    padding: 5px;
+}
+
+.content {
+    position: relative;
+    margin: 0px 10px 10px 10px;
+    background-color: #c6dbf0;
+    border: 1px solid black;
+   
+}
+
+
+/********** Desktop Version **********/
+@media (min-width: 992px) {
+    .column-large {
+        position: relative;
+        float: left;
+        width: 33.33%;
+    }
+
+  
+}
+
+/********** Tablet Version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .column-medium {
+        position: relative;
+        float: left;
+        width: 50%;
+    }
+
+    .row > .column-medium:nth-last-child(1):nth-child(odd){
+        width: 100%;
+    }
+   
+}
+
+/********** Mobile Version **********/
+@media (max-width: 767px) {
+    .column-small {
+        position: relative;
+        width: 100%;
+     
+    }
+
+}
