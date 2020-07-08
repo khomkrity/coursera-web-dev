@@ -55,8 +55,7 @@ body {
 section {
     background-color: #3b6978;
     color: #f08a5d;
-    margin-bottom: 15px;
-    
+    margin: 0 auto 15px;
 }
 
 section h3 {
